@@ -17,6 +17,7 @@ public class Lorena {
     public static void main(String[] args) {
         //Llamando al procedimiento de imprimir nombre
         imprimirNombre();
+        imprimirApellido();
         
         Scanner miScanner = new Scanner(System.in);
         
@@ -54,6 +55,11 @@ public class Lorena {
     private static void imprimirNombre(){
         //Comando para imprimir en consola
             System.out.println("Mi nombre es Lorena ");
+        }
+    
+    private static void imprimirApellido(){
+        //Comando para imprimir en consola el apellido
+            System.out.println("Mi apellido es Payares ");
         }
 
     /**
