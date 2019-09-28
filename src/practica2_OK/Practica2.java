@@ -15,7 +15,7 @@ public class Practica2 {
     public static Contacto contacto = null;
     //declarando un vector de objetos de tipo agenda 
     static Contacto[] agenda;
-    static int tamanoAgenda=3;
+    static int tamanoAgenda=15;
  
     
     public static void main(String[] args) {
